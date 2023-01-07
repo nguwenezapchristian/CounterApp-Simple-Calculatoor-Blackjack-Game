@@ -109,5 +109,3 @@ function restart() {
     messageToPlayer.textContent = "Play Again!";
     allCards = [];
 }
-
-//things to practice on: boolean, querySelector
