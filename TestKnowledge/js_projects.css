@@ -1,0 +1,70 @@
+/*.container {
+    display: flex; and make width of cards to 30%
+    
+}*/
+.card_1, .card_2, .card_3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    background: url("img/crbc_services.jpg") rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    background-blend-mode: multiply;
+    border: 5px solid rgb(181, 181, 181);
+    border-radius: 25px;
+}
+h1 {
+    margin: 20px 5px 20px 5px;
+    font-size: 40px;
+}
+span {
+    margin: 10px 150px 10px 150px;
+    font-size: 50px;
+}
+.incre_btn {
+    background-color: green; 
+}
+.decre_btn {
+    background-color: red; 
+}
+.save_btn {
+    background-color: purple;
+}
+.incre_btn, .decre_btn, .save_btn {
+    cursor:auto;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 25px 5px 15px 5px;
+    font-weight: 700;
+}
+.decre_btn:hover, .incre_btn:hover, .save_btn:hover {
+    border: 2px solid white;
+} 
+/* css style for blackjack game*/
+.btn {
+    background-color: green;
+    cursor:auto;
+    color: goldenrod;
+    border: none;
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 25px 5px 15px 5px;
+    font-weight: 700;
+}
+.btn:hover {
+    border: 2px solid gold;
+} 
+span {
+    font-size: 20px;
+    margin: 30px 30px 30px 30px ;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="js_projects.css">
+    <body>
+        <div class="container">
+            <div class="card_1">
+                <h1>People entered:</h1>
+                <span id="counter" style="font-size: 30px;">0</span><br>
+                <button class="incre_btn" onclick="increment()" id="increment">Increment</button>
+                <button class="decre_btn" onclick="decrement()" id="decrement">Decrement</button>
+                <button class="save_btn" onclick="save()" id="save">Save</button>
+                <p id="entries" style="font-weight: 900;"></p>
+            </div>
+            <div class="card_2">
+                <h1>Calculator</h1>
+                <input type="number" id="num_1">
+                <input type="number" id="num_2">
+                <button class="incre_btn" onclick="add()" id="add_btn">add</button>
+                <button class="decre_btn" onclick="subtract()" id="sub_btn">subtract</button>
+                <button class="save_btn" onclick="multiply()" id="mult_btn">multiply</button>
+                <p id="total" style="font-weight: 900;"></p>
+            </div>
+            <div class="card_3">
+                <h1 style="color: goldenrod;">BLACKJACK</h1>
+                <P id="msg_user" style="font-style: italic;">Play!</P>
+                <p id="all_cards">Cards: Your Cards</p>
+                <span id="sum">SUM: <i>...<i></span>
+                <span id="points">MY POINTS: 0</span>
+                <button class="btn" onclick="play()" id="play_btn">PLay</button>
+                <button class="btn" onclick="addCard()" id="addcard_btn">Add card</button>
+                <button class="btn" onclick="restart()" id="restart_btn">Restart</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
